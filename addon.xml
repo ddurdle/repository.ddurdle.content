@@ -1,0 +1,12 @@
+<addon id="repository.ddurdle.content" name="ddurdle's Content-based KODI XBMC Addons" version="1.0.4" provider-name="ddurdle">
+	<extension point="xbmc.addon.repository" name="ddurdle's Content-based KODI XBMC Addon Repository">
+		<info compressed="false">http://dmdsoftware.net/repository.ddurdle.content/addons.xml</info>
+		<checksum>http://dmdsoftware.net/repository.ddurdle.content/addons.xml.md5</checksum>
+		<datadir zip="true">http://dmdsoftware.net/repository.ddurdle.content/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Install ddurdle's Content-based Addons</summary>
+		<description>Download and install content-based addons by ddurdle</description>
+		<platform>all</platform>
+	</extension>
+</addon>
