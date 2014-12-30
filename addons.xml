@@ -1,5 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
+<addon id="plugin.video.ustvnow" version="0.4.1" name="ustvnow" provider-name="t0mm0">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Plays live streams and recordings from ustvnow.com</summary>
+        <description>Live streaming US TV. You MUST log in to view streams (see addon settings). You can also play any recordings you have made on ustvnow.com</description>
+        <platform>all</platform>
+    </extension>
+</addon>
 <addon id="plugin.video.primewire" version="0.0.1" name="primewire" provider-name="ddurdle">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
@@ -57,7 +70,7 @@
         <platform>all</platform>
     </extension>
 </addon>
-<addon id="plugin.video.gdrive" version="0.4.7" name="gdrive" provider-name="ddurdle">
+<addon id="plugin.video.gdrive" version="0.4.8" name="gdrive" provider-name="ddurdle">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
     </requires>
